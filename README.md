@@ -1,8 +1,15 @@
-# [Plugin Handle]()
+# [Plugin Handle](https://github.com/annihilatoratm/prestashop-doc/tree/main?tab=readme-ov-file#prestashop-16-module-for-payneteasy-payment-gateway)
 # [Payment Flow](https://github.com/annihilatoratm/joomla-doc/blob/main/doc-eng.md#payment-flow-1)
-# Prestashop 1.6 Module for PaynetEasy Payment Gateway
 
-## Implemented Functionality
+## Prestashop 1.6 Module for PaynetEasy Payment Gateway
+
+### System Requirements
+
+* PHP 5.3 - 5.5
+* [curl extension](http://php.net/manual/en/book.curl.php)
+* [Prestashop](http://www.prestashop.com/en/download) 1.6.x (the module has been tested with version 1.6.0.9)
+
+### Implemented Functionality
 
 This module allows processing payment via [Merchant PaynetEasy API](http://wiki.payneteasy.com/index.php/PnE:Merchant_API). The following payment methods are currently implemented:
 - [x] [Sale Transactions](http://wiki.payneteasy.com/index.php/PnE:Sale_Transactions)
@@ -19,7 +26,7 @@ This module allows processing payment via [Merchant PaynetEasy API](http://wiki.
 - [ ] [Qiwi Integration](http://wiki.payneteasy.com/index.php/PnE:Qiwi_integration)
 - [ ] [Merchant Callbacks](http://wiki.payneteasy.com/index.php/PnE:Merchant_Callbacks)
 
-## Steps
+### Steps
 
 * Install prestashop 1.6.1.24
 * Transfer controllers and modules folders to root directory of installed Prestashop
@@ -27,22 +34,18 @@ This module allows processing payment via [Merchant PaynetEasy API](http://wiki.
 * Install and setup paynet module(Modules and Services > Modules and Services).
 * Clear product catalog(Catalog > Products) and add new via Add new product button. Do not forget to setup quantity and price.
 
-## System Requirements
+### <a name="get_package"></a> Download package containing module
 
-* PHP 5.3 - 5.5
-* [curl extension](http://php.net/manual/en/book.curl.php)
-* [Prestashop](http://www.prestashop.com/en/download) 1.6.x (the module has been tested with version 1.6.0.9)
-
-## <a name="get_package"></a> Download package containing module
-
-### Bulding package manually
+#### Bulding package manually
 1. [Install composer](http://getcomposer.org/doc/00-intro.md), if it is not installed
 2. Clone module source code: `composer create-project payneteasy/php-plugin-prestashop --stability=dev --prefer-dist`
 3. Go to module source code directory: `cd php-plugin-prestashop`
 4. Pack the module into archiver: `composer archive --format=zip`
 
-## Install, Configure and Remove Module Instruction
+### Install, Configure and Remove Module Instruction
 
 * [Install Module](01-installation.md)
 * [Configure Module](02-configuration.md)
 * [Remove Module](03-uninstalling.md)
+
+## Payment Flow
