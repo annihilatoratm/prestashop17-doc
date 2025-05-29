@@ -44,8 +44,39 @@ This module allows processing payment via [Merchant PaynetEasy API](http://wiki.
 
 ### Install, Configure and Remove Module Instruction
 
-* [Install Module](01-installation.md)
-* [Configure Module](02-configuration.md)
-* [Remove Module](03-uninstalling.md)
+#### Install Module
 
+
+1. [Download package containing module](00-introduction.md#get_package)
+2. Unpack the package into Prestashop root directory
+3. Open Administration Panel of Prestashop
+4. Go to list of modules (see arrow #1)
+5. Install Module
+    1. Enter "payneteasy" in the search box (see arrow #1)
+    2. Install Module by pressing the "Install" button  (see arrow #2)
+6. Confirm your intention to install the module, which is not related to verified modules (see arrow #1)
+
+
+* [Configure Module](02-configuration.md)
+
+#### Configure Module
+
+1. Open Prestashop Administration Panel
+2. Go to list of modules (see arrow #1)
+3. Open the module settings page
+    1. Enter "payneteasy" in the search box (see arrow #1)
+    2. Open module setting page by pressing "Configure" button (see arrow #2)
+4. Fill in the required settings of module and save them (arrow #1)
+
+#### Remove Module
+
+# Remove Module
+
+1. Open Prestashop Administration Panel
+2. Go to list of modules (see arrow #1)
+3. Remove Module
+    1. Enter "payneteasy" in the search box (arrow #1)
+    2. Open the list of actions for the module (arrow #2)
+    3. Choose "Delete" (arrow #3)
+    4. 
 ## Payment Flow
