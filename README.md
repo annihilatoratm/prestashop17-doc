@@ -57,7 +57,6 @@ This module allows processing payment via [Merchant PaynetEasy API](http://wiki.
 6. Confirm your intention to install the module, which is not related to verified modules
 
   <img src="/images/prestashop-7.png" width=60% height=60%>
-  <img src="/images/prestashop-8.png" width=60% height=60%>
 
 #### Configure Module
 
