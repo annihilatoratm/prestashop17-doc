@@ -79,7 +79,7 @@ This module allows processing payment via [Merchant PaynetEasy API](http://wiki.
     2. Open the list of actions for the module
     3. Choose "Delete"
        
-  <img src="/images/prestashop-1-2.png" width=60% height=60%>
+  <img src="/images/prestashop-1-3.png" width=60% height=60%>
 
   ## Payment Flow
 
