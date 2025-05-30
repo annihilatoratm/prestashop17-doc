@@ -73,9 +73,29 @@ This module allows processing payment via [Merchant PaynetEasy API](http://wiki.
 #### Remove Module
 
 1. Open Prestashop Administration Panel
-2. Go to list of modules (see arrow #1)
+2. Go to list of modules
 3. Remove Module
-    1. Enter "payneteasy" in the search box (arrow #1)
-    2. Open the list of actions for the module (arrow #2)
-    3. Choose "Delete" (arrow #3)
-## Payment Flow
+    1. Enter "payneteasy" in the search box
+    2. Open the list of actions for the module
+    3. Choose "Delete"
+       
+  <img src="/images/prestashop-1-2.png" width=60% height=60%>
+
+  ## Payment Flow
+
+  1. On the main page choose a product. Once it chosen, press on *Add to cart* button to continue the flow.
+  <img src="/images/prestashop-1.png" width=60% height=60%>
+  <img src="/images/prestashop-2.png" width=60% height=60%>
+  
+  2. The pop-up message will indicate that the product was added to the card. You can *Proceed to checkout* to continue the payment process or *Continue Shopping* to return to the shop.
+
+  <img src="/images/prestashop-popup.png" width=60% height=60%>
+
+  3. Once you are ready for payment, click on *Cart* (1) icon at the top of the bar to examine the added items. Press on *Proceed to checkout* (2) to procees the payment.
+
+  <img src="/images/prestashop-3.png" width=60% height=60%>
+
+  4. All required parameters in Personal Information, Addresses, Shipping Method and Payment Method (Payneteasy must be used) sections have to be filled. Click on *Place order* button to finish the payment process.
+
+  <img src="/images/prestashop-5.png" width=60% height=60%>
+  <img src="/images/prestashop-6.png" width=60% height=60%>
