@@ -1,5 +1,5 @@
 # [Plugin Handle](https://github.com/annihilatoratm/prestashop-doc/tree/main?tab=readme-ov-file#prestashop-16-module-for-payneteasy-payment-gateway)
-# [Payment Flow](https://github.com/annihilatoratm/joomla-doc/blob/main/doc-eng.md#payment-flow-1)
+# [Payment Flow](https://github.com/annihilatoratm/prestashop-doc?tab=readme-ov-file#payment-flow-1)
 
 ## Prestashop 1.6 Module for PaynetEasy Payment Gateway
 
