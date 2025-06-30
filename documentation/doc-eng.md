@@ -1,12 +1,13 @@
 # PaynetEasy Payment Plugin for Prestashop 1.6
 
-# 1. [Requirements]()
-# 2. [Functionality]()
-# 3. [Installation Steps](https://github.com/annihilatoratm/prestashop-doc/tree/main?tab=readme-ov-file#prestashop-16-module-for-payneteasy-payment-gateway)
-# 4. [Package Build]()
-# 5. [Plugin Installation]()
-# 6. [Plugin Configuration]()
-# 7. [Plugin Uninstallation]()
+# 1. [Requirements](https://github.com/annihilatoratm/prestashop-doc/blob/main/documentation/doc-eng.md#1-requirements-1)
+# 2. [Functionality](https://github.com/annihilatoratm/prestashop-doc/blob/main/documentation/doc-eng.md#2-functionality-1)
+# 3. [Installation Steps](https://github.com/annihilatoratm/prestashop-doc/blob/main/documentation/doc-eng.md#3-installation-steps-1)
+# 4. [Package Build](https://github.com/annihilatoratm/prestashop-doc/blob/main/documentation/doc-eng.md#4-package-build-1)
+# 5. [Plugin Installation](https://github.com/annihilatoratm/prestashop-doc/blob/main/documentation/doc-eng.md#5-plugin-installation-1)
+# 6. [Plugin Configuration](https://github.com/annihilatoratm/prestashop-doc/blob/main/documentation/doc-eng.md#6-plugin-configuration-1)
+# 7. [Plugin Uninstallation](https://github.com/annihilatoratm/prestashop-doc/blob/main/documentation/doc-eng.md#7-plugin-uninstallation-1)
+# 8. [Payment Flow](https://github.com/annihilatoratm/prestashop-doc/blob/main/documentation/doc-eng.md#8-payment-flow)
 
 ## 1. Requirements
 
@@ -36,13 +37,12 @@ This module allows processing payment via [Connecting Party PaynetEasy API](http
 3.1. Install prestashop 1.6.1.24  
 3.2. Copy the controllers and modules folders into the root directory of your Prestashop installation.  
 3.3. Go to _Advanced Parameters_ > _Performance_ and:   
-    * Disable cache
-    * Disable template compilation
-    * Enable Disable all overrides  
+   * Disable cache  
+   * Disable template compilation  
+   * Enable Disable all overrides    
     
 3.4. Install and configure the _Paynet module_ via Modules and Services.
 3.5. Clear the default product catalog (Catalog > Products) and add a new product using the **Add new product** button. Make sure to set both quantity and price. 
-
 
 ## 4. Package Build
 4.1. [Install composer](http://getcomposer.org/doc/00-intro.md), if it is not installed.  
@@ -61,8 +61,7 @@ This module allows processing payment via [Connecting Party PaynetEasy API](http
     5.5.2. Click **Install** to install the plugin.  
 5.6. Confirm installation, even though the module is not verified by Prestashop.  
 
-  <img src="/images/prestashop-7.png" width=60% height=60%>
-
+<img src="/images/prestashop-7.png" width=60% height=60%>
 
 ## 6. Plugin Configuration.  
 
@@ -75,18 +74,18 @@ This module allows processing payment via [Connecting Party PaynetEasy API](http
   <img src="/images/prestashop-1-1.png" width=60% height=60%>
   
 6.4. Fill in the required configuration settings (arrow #1).  
-  <img src="/images/prestashop-1-2.png" width=60% height=60%>
+<img src="/images/prestashop-1-2.png" width=60% height=60%>
 
 ## 7. Plugin Uninstallation.
 
-1. Open Prestashop Administration Panel.  
-2. Navigate to _Modules_ > _Module Manager_.  
-3. Remove Module.  
-    1. Search for "payneteasy" using the search field.  
-    2. Open the list of actions for the module.  
-    3. Choose **Delete**.  
+7.1. Open Prestashop Administration Panel.  
+7.2. Navigate to _Modules_ > _Module Manager_.  
+7.3. Remove Module.  
+    7.3.1. Search for "payneteasy" using the search field.  
+    7.3.2. Open the list of actions for the module.  
+    7.3.3. Choose **Delete**.  
        
-  <img src="/images/prestashop-1-3.png" width=60% height=60%>
+<img src="/images/prestashop-1-3.png" width=60% height=60%>
 
 ## 8. Payment Flow
 
