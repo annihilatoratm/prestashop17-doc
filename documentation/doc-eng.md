@@ -85,15 +85,15 @@ This module allows processing payment via [Connecting Party PaynetEasy API](http
 
 <img src="/images/prestashop-popup.png" width=60% height=60%>
 
-8.3. When ready, click the **Cart** icon in the top navigation bar to review the items.  
+8.3. When ready, click the **Cart** icon in the top navigation bar to review the items.   
 
 <img src="/images/prestashop-3.png" width=60% height=60%>
 
-8.4. Click **Proceed to checkout** to begin the payment process:
-   8.4.1. Personal Information.   
-   8.4.2. Addresses.  
-   8.4.3. Shipping Method.  
-   8.4.4. Payment Method (Select Paynet Payment Method).  
+8.4. Click **Proceed to checkout** to begin the payment process:  
+   8.4.1. Personal Information.    
+   8.4.2. Addresses.   
+   8.4.3. Shipping Method.   
+   8.4.4. Payment Method (Select Paynet Payment Method).   
 
 <img src="/images/prestashop-5.png" width=60% height=60%>
 <img src="/images/prestashop-6.png" width=60% height=60%>
